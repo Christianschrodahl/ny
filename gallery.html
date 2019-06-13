@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SpaceX</title>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="spacex, space, rocket, launch, mission">
+<meta name="author" content="Christian Schrodahl">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <section class="container row">
+        <div class="col1"><a href="index.html"><img src="img/spacex_logo_white.png" alt="SpaceX logo"></a></div>
+        <a id="ham-menu"><img src="img/hamburgerIcon.svg"></a>
+    <nav id="menu" class="topMenu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="mission.html#Falcon">MISSION</a></li>
+            <li class="active"><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    </section>
+</header>
+    <section id="topHeader-gallery">
+		<h1 id="pageHeader">GALLERY</h1>
+            <div class="header-banner">
+                <div class=" banner-small">
+                <div class="container row">
+                <div class="col2"><h2>Watch SpaceX Live Launches Here</h2></div>
+                <div class="col1"><a id="header-btn" href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA">Watch Now</a></div>
+                </div></div>
+                <div class="countdown">
+                <div class="container count-row">
+                    <div class="count-col1"><p id="days">0</p><h3>Days</h3></div>
+                    <div class="count-col1"><p id="hours">0</p><h3>Hours</h3></div>
+                    <div class="count-col1"><p id="minutes">0</p><h3>Minutes</h3></div>
+                    <div class="count-col1"><p id="seconds">0</p><h3>Seconds</h3></div>
+                </div></div>
+            </div>
+    </section>
+	<main class="container">
+		<div class="gall-row">
+		<div class="gall-col1"><button class="gallery" onclick="activeGall(event, 'FirstFlight'), currentSlide(1)"><div><img src="img/firstFlight/small/first_reflight_-_01_img_6067.jpg"><h4>First-Flight</h4></div></button></div>
+		<div class="gall-col1"><button class="gallery" onclick="activeGall(event, '39A'), currentSlide(9)"><div><img src="img/39a/small/39a_04_bi0i1343.jpg"><h4>39A Launch</h4></div></button></div>
+		<div class="gall-col1"><button class="gallery" onclick="activeGall(event, 'FirstFlight')"><div><img src="img/firstFlight/small/first_reflight_-_01_img_6067.jpg"><h4>First-Flight</h4></div></button></div>
+		<div class="gall-col1"><button class="gallery" onclick="activeGall(event, 'FirstFlight')"><div><img src="img/firstFlight/small/first_reflight_-_01_img_6067.jpg"><h4>First-Flight</h4></div></button></div>
+		<div class="gall-col1"><button class="gallery" onclick="activeGall(event, 'FirstFlight')"><div><img src="img/firstFlight/small/first_reflight_-_01_img_6067.jpg"><h4>First-Flight</h4></div></button></div>
+		<div class="gall-col1"><button class="gallery" onclick="activeGall(event, 'FirstFlight')"><div><img src="img/firstFlight/small/first_reflight_-_01_img_6067.jpg"><h4>First-Flight</h4></div></button></div>
+		</div>
+		<div id="FirstFlight" class="popup">
+					<a class="close" onclick="closeBtn()">Close</a>
+					<div class="row">
+					<div id="img-list" class="col1">
+				 	<img class="cursor" src="img/firstFlight/small/first_reflight_-_01_img_6067.jpg" onclick="currentSlide(1)" alt="The Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_02_dsc_1054.jpg" onclick="currentSlide(2)" alt=" Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_03_25787998624_3ca213be1e_o.jpg" onclick="currentSlide(3)" alt=" Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_04_first_stage_return5.jpg" onclick="currentSlide(4)" alt=" Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_05_crs8_recovered_first_stage_3.jpg" onclick="currentSlide(5)" alt=" Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_06_dsc04633.jpg" onclick="currentSlide(6)" alt=" Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_07_b1021_hotfire_retouch_-_dsc05680.jpg" onclick="currentSlide(7)" alt=" Woods">
+					<img class="cursor" src="img/firstFlight/small/first_reflight_-_08_ses-10_drone_l-0_-_033117_-_bi0i2389.jpg" onclick="currentSlide(8)" alt=" Woods">
+				</div>
+				<div class="col1">
+			 <div class="mySlides">
+   			 <div class="numbertext">1 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_01_img_6067%20(1).jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">2 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_02_dsc_1054.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">3 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_03_25787998624_3ca213be1e_o.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">4 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_04_first_stage_return5.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">5 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_05_crs8_recovered_first_stage_3.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">6 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_06_dsc04633.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">7 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_07_b1021_hotfire_retouch_-_dsc05680.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">8 / 8</div>
+    		 <img src="img/firstFlight/first_reflight_-_08_ses-10_drone_l-0_-_033117_-_bi0i2389.jpg">
+  			</div>
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+  			<a class="next" onclick="plusSlides(1)">❯</a>
+			</div>
+			</div>
+		</div>
+		<div id="39A" class="popup">
+					<a class="close" onclick="closeBtn()">Close</a>
+					<div class="row">
+					<div id="img-list" class="col1">
+				 	<img class="cursor" src="img/39a/small/39a_01_bi0i1468.jpg" onclick="currentSlide(9)" alt="The Woods">
+					<img class="cursor" src="img/39a/small/39a_03_poidx-cape-120816-bi0i1330_-_resize.jpg" onclick="currentSlide(10)" alt=" Woods">
+					<img class="cursor" src="img/39a/small/39a_06_39a-2_resize.jpg" onclick="currentSlide(11)" alt=" Woods">
+					<img class="cursor" src="img/39a/small/39a_09_crs10_-_lminus2_-_021617_-_bi0i8632.jpg" onclick="currentSlide(12)" alt=" Woods">
+					<img class="cursor" src="img/39a/small/39a_10_crs10_-_lminus2_-_021617_-_bi0i8678_-_resize.jpg" onclick="currentSlide(13)" alt=" Woods">
+					<img class="cursor" src="img/39a/small/39a_11_crs10_-_lminus2_-_vertical021617_-_129a9131.jpg" onclick="currentSlide(14)" alt=" Woods">
+					<img class="cursor" src="img/39a/small/39a_04_bi0i1343.jpg" onclick="currentSlide(15)" alt=" Woods">
+					<img class="cursor" src="img/39a/small/39a_12_crs-10_nwramp.jpg" onclick="currentSlide(16)" alt=" Woods">
+				</div>
+				<div class="col1">
+			 <div class="mySlides">
+   			 <div class="numbertext">1 / 8</div>
+    		 <img src="img/39a/39a_01_bi0i1468%20(1).jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">2 / 8</div>
+    		 <img src="img/39a/39a_03_poidx-cape-120816-bi0i1330_-_resize.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">3 / 8</div>
+    		 <img src="img/39a/39a_06_39a-2_resize.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">4 / 8</div>
+    		 <img src="img/39a/39a_09_crs10_-_lminus2_-_021617_-_bi0i8632.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">5 / 8</div>
+    		 <img src="img/39a/39a_10_crs10_-_lminus2_-_021617_-_bi0i8678_-_resize.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">6 / 8</div>
+    		 <img src="img/39a/39a_11_crs10_-_lminus2_-_vertical021617_-_129a9131.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">7 / 8</div>
+    		 <img src="img/39a/39a_04_bi0i1343.jpg">
+  			</div>
+			<div class="mySlides">
+   			 <div class="numbertext">8 / 8</div>
+    		 <img src="img/39a/39a_12_crs-10_nwramp.jpg">
+  			</div>
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+  			<a class="next" onclick="plusSlides(1)">❯</a>
+			</div>
+			</div>
+		</div>
+	</main>
+<footer>
+    <section class="container row">
+        <div class="col1"><h3>Join Our Community</h3> <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Donec in consequat ipsum. 
+            Nulla facilisi. Aenean aliquam tellus non ex fringilla, 
+            at consectet ur nulla fermentum. </p>
+            <a href="#">Click Here</a>
+        </div>
+        <div class="col1"><h3>Contact Information</h3> <p>Phone: <a>310-363-6000</a></p>
+        <h4>MEDIA INQUIRIES</h4><a href="mailto:media@spacex.com">media@spacex.com</a>
+        <h4>SALES INQUIRIES</h4><a href="mailto:sales@spacex.com">sales@spacex.com</a>
+        </div>
+        <div id="social-M" class="col1">
+            <h3>Social Media</h3>
+            <a href="https://nb-no.facebook.com/groups/spacexgroup/"><img src="img/facebook.svg"></a>
+            <a href="https://twitter.com/spacex"><img src="img/twitter.svg"></a>
+            <a href="https://www.instagram.com/spacex/?hl=nb"><img src="img/instagram.svg"></a>
+        </div>
+    </section>
+    <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mission.html">MISSION</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    </section>
+    <section id="copyright">
+        <p>© 2019 Made by Christian schrodahl</p>
+    </section>
+</footer>
+<script src="script.js"></script>
+<script src="gallery.js"></script>
+</body>
+</html>
